@@ -1,11 +1,9 @@
-import StrVCTVRE_annot
-import AnnotSV
 import threading
 
-from annotate_annotsv import annotate_with_annotcv
-from annotate_strvctvre import annotate_with_strvctvre
-from annotated_vcf import process_bam_file
-from helper_functions import safe_run
+from Anotations.annotate_annotsv import annotate_with_annotcv
+from Anotations.annotate_strvctvre import annotate_with_strvctvre
+from Anotations.annotated_vcf import process_bam_file
+from Anotations.helper_functions import safe_run
 
 
 def run_battenberg():
